@@ -13,6 +13,9 @@ class airSign extends Zodiac{
 	
 	public static void main(String [] args){
 		Zodiac Gemini = new airSign("Gemini", "Twins", "Mercury");
+		//Not Overridden
+		Gemini.getZodiacInfo();
+		
 		Gemini.traits = "Gemini is the third astrological sign in the zodiac, originating from the constellation of Gemini."
 				+ "\nUnder the tropical zodiac, the sun transits this sign between May 21 and June 21. \nGemini is represented by The Twins Castor and Pollux.";
 		Gemini.getProfile();
