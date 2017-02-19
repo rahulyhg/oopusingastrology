@@ -4,6 +4,7 @@ package zodie;
 class fireSign extends Zodiac{
 	
 
+	//Method Overriding to be used by subclasses.
 	public void getZodiacInfo(){
 		System.out.println("This is a FireSign Profile.");
 	}
@@ -37,7 +38,7 @@ class fireSign extends Zodiac{
 		
 		//Instantiation of object using one of the declared constructors.
 		Zodiac Aries = new fireSign("Aries", "Ram", "Mars");
-		//Method Overriding
+		//Overridden method is executed instead of that of the Superclass
 		Aries.getZodiacInfo();
 		Aries.traits = "Aries is the first astrological sign in the zodiac, spanning the first 30 degrees of celestial longitude. \nUnder the tropical zodiac, the Sun transits this sign mostly between March 21 and April 20 each year.";	
 		//Invoking the instance methods on Objects
