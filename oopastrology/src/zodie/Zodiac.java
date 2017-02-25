@@ -1,6 +1,6 @@
 package zodie;
 
-public class Zodiac {
+public abstract class Zodiac {
 	
 	//Using access modifier to restrict access to package only.
 	protected String zodName, planets, symbol, months;
@@ -22,7 +22,7 @@ public class Zodiac {
 			months = "21 May and 20 June";
 		}
 		else if (zodName.toLowerCase().contains("cancer")){
-			months = "21 June – 22 July";
+			months = "21 June and 22 July";
 		}
 
 		
@@ -31,10 +31,12 @@ public class Zodiac {
 				"\nSymbol: " +symbol +
 				"\nPlanet: " + planets +
 				"\nMonths: " + months +
-				"\nCompatibilities: "+ bestCompatibilities +
-				"\n\nTraits: " + traits +"\n"
+				"\nCompatibilities: "+ bestCompatibilities +"\n"
 				);
 	}
+	
+	//Abstract method declared
+	public abstract void zoDesc (String zodiacDescription);
 	
 	//Illustrating Method Overriding.
 	public void getZodiacInfo(){

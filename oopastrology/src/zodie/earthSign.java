@@ -20,4 +20,8 @@ class earthSign extends Zodiac{
 		
 		Taurus.getProfile();
 	}
+	
+	public void zoDesc(String zodiacDescription){
+		
+	}
 }

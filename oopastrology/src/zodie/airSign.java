@@ -30,4 +30,10 @@ class airSign extends Zodiac{
 				+ "\nUnder the tropical zodiac, the sun transits this sign between May 21 and June 21. \nGemini is represented by The Twins Castor and Pollux.";
 		Gemini.getProfile();
 	}
+
+	@Override
+	public void zoDesc(String zodiacDescription) {
+		// TODO Auto-generated method stub
+		
+	}
 }

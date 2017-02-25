@@ -25,4 +25,10 @@ class waterSign extends Zodiac{
 		Pisces.getProfile();
 		
 	}
+
+	@Override
+	public void zoDesc(String zodiacDescription) {
+		// TODO Auto-generated method stub
+		
+	}
 }
